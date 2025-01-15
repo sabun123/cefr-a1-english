@@ -136,7 +136,7 @@ class KanaGame {
         // Add word stats
         const statsDiv = document.createElement('div');
         statsDiv.className = 'word-stats';
-        statsDiv.textContent = `Total Kana: ${totalWords}`;
+        statsDiv.textContent = `Total Words: ${totalWords}`; // Changed from 'Total Kana'
         wordListContainer.appendChild(statsDiv);
         
         this.kanaData.forEach((kana, index) => {
@@ -150,16 +150,16 @@ class KanaGame {
             const contentDiv = document.createElement('div');
             contentDiv.className = 'word-content';
             
-            const kanaChar = document.createElement('div');
-            kanaChar.className = 'kana';
-            kanaChar.textContent = kana.word;
+            const wordDiv = document.createElement('div');
+            wordDiv.className = 'kana';
+            wordDiv.textContent = kana.word;
             
-            const pronunciation = document.createElement('div');
-            pronunciation.className = 'pronunciation';
-            pronunciation.textContent = kana.ipa_pronunciation.join(', ');
+            const pronunciationDiv = document.createElement('div');
+            pronunciationDiv.className = 'pronunciation';
+            pronunciationDiv.textContent = kana.ipa_pronunciation.join(', ');
             
-            contentDiv.appendChild(kanaChar);
-            contentDiv.appendChild(pronunciation);
+            contentDiv.appendChild(wordDiv);
+            contentDiv.appendChild(pronunciationDiv);
             
             wordItem.appendChild(numberDiv);
             wordItem.appendChild(contentDiv);
