@@ -1,18 +1,21 @@
 # CEFR A1 English Practice
 
-A FREE simple, interactive web application for practicing CEFR A1 English vocabulary. The application randomly presents vocabulary and allows users to select the correct meaning in their respective language. The app supports Malay, Vietnamese, Mandarin and Japanese speakers.
+A FREE simple, interactive web application for practicing CEFR A1 English vocabulary. The application randomly presents vocabulary and allows users to select the correct meaning in their respective language. The app supports Malay, Vietnamese, Mandarin, Japanese, and Arabic speakers.
 
 ### Latihan Bahasa Inggeris CEFR A1
-Aplikasi web interaktif yang mudah dan PERCUMA untuk berlatih kosa kata Bahasa Inggeris CEFR A1. Aplikasi ini secara rawak memaparkan kosa kata dan membolehkan pengguna memilih maksud yang betul dalam bahasa mereka masing-masing. Aplikasi ini menyokong pengguna berbahasa Melayu, Vietnam, Mandarin dan Jepun.
+Aplikasi web interaktif yang mudah dan PERCUMA untuk berlatih kosa kata Bahasa Inggeris CEFR A1. Aplikasi ini secara rawak memaparkan kosa kata dan membolehkan pengguna memilih maksud yang betul dalam bahasa mereka masing-masing. Aplikasi ini menyokong pengguna berbahasa Melayu, Vietnam, Mandarin, Jepun dan Arab.
 
 ### Luyện tập tiếng Anh CEFR A1
-Một ứng dụng web tương tác đơn giản và MIỄN PHÍ để luyện từ vựng tiếng Anh CEFR A1. Ứng dụng này sẽ ngẫu nhiên hiện từ vựng và cho phép người dùng chọn nghĩa đúng bằng ngôn ngữ của họ. Ứng dụng hỗ trợ người dùng nói tiếng Mã Lai, tiếng Việt, tiếng Quan Thoại và tiếng Nhật.
+Một ứng dụng web tương tác đơn giản và MIỄN PHÍ để luyện từ vựng tiếng Anh CEFR A1. Ứng dụng này sẽ ngẫu nhiên hiện từ vựng và cho phép người dùng chọn nghĩa đúng bằng ngôn ngữ của họ. Ứng dụng hỗ trợ người dùng nói tiếng Mã Lai, tiếng Việt, tiếng Quan Thoại, tiếng Nhật và tiếng Ả Rập.
 
 ### CEFR A1 英语练习
-一个免费的简单互动网页应用，用于练习CEFR A1级别的英语词汇。该应用程序会随机显示词汇，并允许用户选择其对应语言的正确含义。该应用支持马来语、越南语、普通话和日语用户。
+一个免费的简单互动网页应用，用于练习CEFR A1级别的英语词汇。该应用程序会随机显示词汇，并允许用户选择其对应语言的正确含义。该应用支持马来语、越南语、普通话、日语和阿拉伯语用户。
 
 ### CEFR A1英語練習
-CEFR A1レベルの英語語彙を練習するための無料のシンプルでインタラクティブなウェブアプリケーションです��アプリケーションはランダムに語彙を表示し、ユーザーがそれぞれの言語で正しい意味を選択できるようにします。このアプリはマレー語、ベトナム語、マンダリン語、日本語を話すユーザーをサポートしています。
+CEFR A1レベルの英語語彙を練習するための無料のシンプルでインタラクティブなウェブアプリケーションです。アプリケーションはランダムに語彙を表示し、ユーザーがそれぞれの言語で正しい意味を選択できるようにします。このアプリはマレー語、ベトナム語、マンダリン語、日本語、アラビア語を話すユーザーをサポートしています。
+
+### ممارسة اللغة الإنجليزية CEFR A1
+تطبيق ويب تفاعلي بسيط ومجاني لممارسة مفردات اللغة الإنجليزية في مستوى CEFR A1. يعرض التطبيق عشوائيًا المفردات ويسمح للمستخدمين باختيار المعنى الصحيح بلغتهم الخاصة. يدعم التطبيق متحدثي اللغة الماليزية والفيتنامية والصينية واليابانية والعربية.
 
 ## Live Site
 
@@ -39,6 +42,11 @@ Truy cập liên kết trên để truy cập trang web và bắt đầu học v
 [https://sabun123.github.io/cefr-a1-english/](https://sabun123.github.io/cefr-a1-english/) を訪問
 
 上記のリンクにアクセスして、自己テストで今日から学習を開始してください！これは無料です！
+
+### الموقع المباشر
+قم بزيارة [https://sabun123.github.io/cefr-a1-english/](https://sabun123.github.io/cefr-a1-english/)
+
+انتقل إلى الرابط أعلاه للوصول إلى الموقع وابدأ التعلم مع الاختبار الذاتي اليوم! إنه مجاني!
 
 ## Features
 
