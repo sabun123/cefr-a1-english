@@ -3,7 +3,7 @@
   "short_name": "English A1",
   "description": "Learn English A1 vocabulary easily",
   "start_url": "/",
-  "theme_color": "#ffffff",
+  "theme_color": "#fffefe",
   "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait-primary",
