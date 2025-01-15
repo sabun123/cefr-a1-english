@@ -254,20 +254,35 @@ class KanaGame {
     }
 
     getBestVoice() {
-        // Try to find a Microsoft voice first (generally higher quality)
-        const microsoftVoice = this.voices.find(voice =>
+        // First try: Google voice (highest quality)
+        const googleVoice = this.voices.find(voice =>
             (voice.lang.includes('en-US') || voice.lang.includes('en-GB')) &&
-            voice.name.includes('Microsoft')
+            voice.name.includes('Google')
         );
 
-        if (microsoftVoice) return microsoftVoice;
+        if (googleVoice) return googleVoice;
 
-        // Fall back to any English voice
-        const anyEnglishVoice = this.voices.find(voice =>
+        // Second try: Chrome's built-in voices
+        const chromeVoice = this.voices.find(voice =>
+            (voice.lang.includes('en-US') || voice.lang.includes('en-GB')) &&
+            (voice.name.includes('Chrome') || voice.name.includes('Edge'))
+        );
+
+        if (chromeVoice) return chromeVoice;
+
+        // Third try: any native voice (these are usually better than Microsoft)
+        const nativeVoice = this.voices.find(voice =>
+            (voice.lang.includes('en-US') || voice.lang.includes('en-GB')) &&
+            !voice.name.includes('Microsoft') &&
+            voice.localService
+        );
+
+        if (nativeVoice) return nativeVoice;
+
+        // Last resort: any English voice
+        return this.voices.find(voice =>
             voice.lang.includes('en-US') || voice.lang.includes('en-GB')
         );
-
-        return anyEnglishVoice;
     }
 
     async playAudio(text) {
