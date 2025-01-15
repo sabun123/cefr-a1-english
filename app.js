@@ -16,6 +16,7 @@ class KanaGame {
         this.popup = document.getElementById('wordListPopup');
         this.closePopupButton = document.getElementById('closePopup');
         this.languageSelect = document.getElementById('languageSelect');
+        this.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
         // Footer copyright
         const currentYear = new Date().getFullYear();
@@ -254,7 +255,25 @@ class KanaGame {
     }
 
     getBestVoice() {
-        // First try: Google voice (highest quality)
+        if (this.isMobile) {
+            // On iOS Safari, look for Samantha or Daniel (high quality voices)
+            const iosVoice = this.voices.find(voice =>
+                voice.lang.includes('en-US') && 
+                (voice.name.includes('Samantha') || voice.name.includes('Daniel'))
+            );
+            
+            if (iosVoice) return iosVoice;
+
+            // On Android, prefer Chrome's or Samsung's voices
+            const androidVoice = this.voices.find(voice =>
+                voice.lang.includes('en-US') && 
+                (voice.name.includes('Chrome') || voice.name.includes('Samsung'))
+            );
+
+            if (androidVoice) return androidVoice;
+        }
+
+        // Desktop voice selection (existing logic)
         const googleVoice = this.voices.find(voice =>
             (voice.lang.includes('en-US') || voice.lang.includes('en-GB')) &&
             voice.name.includes('Google')
@@ -291,8 +310,53 @@ class KanaGame {
             return;
         }
 
+        // Cancel any ongoing speech
         window.speechSynthesis.cancel();
 
+        if (this.isMobile) {
+            // Mobile-specific settings
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.9;    // Slightly faster on mobile
+            utterance.pitch = 1.0;
+            utterance.volume = 1.0;
+
+            const bestVoice = this.getBestVoice();
+            if (bestVoice) {
+                utterance.voice = bestVoice;
+            }
+
+            // iOS Safari workaround for speech synthesis issues
+            if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                // Split longer phrases into words
+                const words = text.split(' ');
+                for (const word of words) {
+                    const wordUtterance = new SpeechSynthesisUtterance(word);
+                    wordUtterance.lang = 'en-US';
+                    wordUtterance.rate = 0.9;
+                    wordUtterance.voice = bestVoice;
+                    
+                    await new Promise(resolve => {
+                        wordUtterance.onend = resolve;
+                        wordUtterance.onerror = resolve;
+                        window.speechSynthesis.speak(wordUtterance);
+                    });
+                    
+                    // Small pause between words
+                    await new Promise(r => setTimeout(r, 100));
+                }
+                return;
+            }
+
+            // Android handling
+            return new Promise(resolve => {
+                utterance.onend = resolve;
+                utterance.onerror = resolve;
+                window.speechSynthesis.speak(utterance);
+            });
+        }
+
+        // Desktop handling (existing code)
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'en-US';
         utterance.rate = 0.8;
