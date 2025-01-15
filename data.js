@@ -692,5 +692,598 @@ const data = [
             ar: ["ابنة"]
         },
     },
-    
+    {
+        word: "family",
+        ipa_pronunciation: ["ˈfæməli"],
+        translations: {
+            vn: ["gia đình"],
+            my: ["keluarga"], 
+            zh: ["家庭"],
+            ja: ["家族"],
+            ar: ["عائلة"]
+        },
+    },
+    {
+        word: "home",
+        ipa_pronunciation: ["hoʊm"],
+        translations: {
+            vn: ["nhà"],
+            my: ["rumah"], 
+            zh: ["家"],
+            ja: ["家"],
+            ar: ["منزل"]
+        },
+    },
+    {
+        word: "house",
+        ipa_pronunciation: ["haʊs"],
+        translations: {
+            vn: ["nhà"],
+            my: ["rumah"], 
+            zh: ["房子"],
+            ja: ["家"],
+            ar: ["بيت"]
+        },
+    },
+    {
+        word: "room",
+        ipa_pronunciation: ["ruːm"],
+        translations: {
+            vn: ["phòng"],
+            my: ["bilik"], 
+            zh: ["房间"],
+            ja: ["部屋"],
+            ar: ["غرفة"]
+        },
+    },
+    {
+        word: "bed",
+        ipa_pronunciation: ["bɛd"],
+        translations: {
+            vn: ["giường"],
+            my: ["katil"], 
+            zh: ["床"],
+            ja: ["ベッド"],
+            ar: ["سرير"]
+        },
+    },
+    {
+        word: "kitchen",
+        ipa_pronunciation: ["ˈkɪtʃɪn"],
+        translations: {
+            vn: ["nhà bếp"],
+            my: ["dapur"], 
+            zh: ["厨房"],
+            ja: ["台所"],
+            ar: ["مطبخ"]
+        },
+    },
+    {
+        word: "bathroom",
+        ipa_pronunciation: ["ˈbæθruːm"],
+        translations: {
+            vn: ["phòng tắm"],
+            my: ["bilik mandi"], 
+            zh: ["浴室"],
+            ja: ["バスルーム"],
+            ar: ["حمام"]
+        },
+    },
+    {
+        word: "living room",
+        ipa_pronunciation: ["ˈlɪvɪŋ ruːm"],
+        translations: {
+            vn: ["phòng khách"],
+            my: ["bilik tamu"], 
+            zh: ["客厅"],
+            ja: ["リビングルーム"],
+            ar: ["صالة"]
+        },
+    },
+    {
+        word: "door",
+        ipa_pronunciation: ["dɔːr"],
+        translations: {
+            vn: ["cửa"],
+            my: ["pintu"], 
+            zh: ["门"],
+            ja: ["ドア"],
+            ar: ["باب"]
+        },
+    },
+    {
+        word: "window",
+        ipa_pronunciation: ["ˈwɪndoʊ"],
+        translations: {
+            vn: ["cửa sổ"],
+            my: ["tingkap"], 
+            zh: ["窗户"],
+            ja: ["窓"],
+            ar: ["نافذة"]
+        },
+    },
+    {
+        word: "table",
+        ipa_pronunciation: ["ˈteɪbl"],
+        translations: {
+            vn: ["bàn"],
+            my: ["meja"], 
+            zh: ["桌子"],
+            ja: ["テーブル"],
+            ar: ["طاولة"]
+        },
+    },
+    {
+        word: "chair",
+        ipa_pronunciation: ["tʃɛr"],
+        translations: {
+            vn: ["ghế"],
+            my: ["kerusi"], 
+            zh: ["椅子"],
+            ja: ["椅子"],
+            ar: ["كرسي"]
+        },
+    },
+    {
+        word: "book",
+        ipa_pronunciation: ["bʊk"],
+        translations: {
+            vn: ["sách"],
+            my: ["buku"], 
+            zh: ["书"],
+            ja: ["本"],
+            ar: ["كتاب"]
+        },
+    },
+    {
+        word: "pen",
+        ipa_pronunciation: ["pɛn"],
+        translations: {
+            vn: ["bút"],
+            my: ["pen"], 
+            zh: ["笔"],
+            ja: ["ペン"],
+            ar: ["قلم"]
+        },
+    },
+    {
+        word: "pencil",
+        ipa_pronunciation: ["ˈpɛnsəl"],
+        translations: {
+            vn: ["bút chì"],
+            my: ["pensel"], 
+            zh: ["铅笔"],
+            ja: ["鉛筆"],
+            ar: ["قلم رصاص"]
+        },
+    },
+    {
+        word: "paper",
+        ipa_pronunciation: ["ˈpeɪpər"],
+        translations: {
+            vn: ["giấy"],
+            my: ["kertas"], 
+            zh: ["纸"],
+            ja: ["紙"],
+            ar: ["ورقة"]
+        },
+    },
+    {
+        word: "computer",
+        ipa_pronunciation: ["kəmˈpjuːtər"],
+        translations: {
+            vn: ["máy tính"],
+            my: ["komputer"], 
+            zh: ["电脑"],
+            ja: ["コンピュータ"],
+            ar: ["كمبيوتر"]
+        },
+    },
+    {
+        word: "phone",
+        ipa_pronunciation: ["foʊn"],
+        translations: {
+            vn: ["điện thoại"],
+            my: ["telefon"], 
+            zh: ["电话"],
+            ja: ["電話"],
+            ar: ["هاتف"]
+        },
+    },
+    {
+        word: "car",
+        ipa_pronunciation: ["kɑːr"],
+        translations: {
+            vn: ["ô tô"],
+            my: ["kereta"], 
+            zh: ["汽车"],
+            ja: ["車"],
+            ar: ["سيارة"]
+        },
+    },
+    {
+        word: "bus",
+        ipa_pronunciation: ["bʌs"],
+        translations: {
+            vn: ["xe buýt"],
+            my: ["bas"], 
+            zh: ["公共汽车"],
+            ja: ["バス"],
+            ar: ["حافلة"]
+        },
+    },
+    {
+        word: "train",
+        ipa_pronunciation: ["treɪn"],
+        translations: {
+            vn: ["tàu hỏa"],
+            my: ["kereta api"], 
+            zh: ["火车"],
+            ja: ["電車"],
+            ar: ["قطار"]
+        },
+    },
+    {
+        word: "bike",
+        ipa_pronunciation: ["baɪk"],
+        translations: {
+            vn: ["xe đạp"],
+            my: ["basikal"], 
+            zh: ["自行车"],
+            ja: ["自転車"],
+            ar: ["دراجة"]
+        },
+    },
+    {
+        word: "walk",
+        ipa_pronunciation: ["wɔk"],
+        translations: {
+            vn: ["đi bộ"],
+            my: ["berjalan"], 
+            zh: ["走路"],
+            ja: ["歩く"],
+            ar: ["يمشي"]
+        },
+    },
+    {
+        word: "run",
+        ipa_pronunciation: ["rʌn"],
+        translations: {
+            vn: ["chạy"],
+            my: ["berlari"], 
+            zh: ["跑"],
+            ja: ["走る"],
+            ar: ["يجري"]
+        },
+    },
+    {
+        word: "swim",
+        ipa_pronunciation: ["swɪm"],
+        translations: {
+            vn: ["bơi lội"],
+            my: ["berenang"], 
+            zh: ["游泳"],
+            ja: ["泳ぐ"],
+            ar: ["يسبح"]
+        },
+    },
+    {
+        word: "eat",
+        ipa_pronunciation: ["iːt"],
+        translations: {
+            vn: ["ăn"],
+            my: ["makan"], 
+            zh: ["吃"],
+            ja: ["食べる"],
+            ar: ["يأكل"]
+        },
+    },
+    {
+        word: "drink",
+        ipa_pronunciation: ["drɪŋk"],
+        translations: {
+            vn: ["uống"],
+            my: ["minum"], 
+            zh: ["喝"],
+            ja: ["飲む"],
+            ar: ["يشرب"]
+        },
+    },
+    {
+        word: "sleep",
+        ipa_pronunciation: ["sliːp"],
+        translations: {
+            vn: ["ngủ"],
+            my: ["tidur"], 
+            zh: ["睡觉"],
+            ja: ["寝る"],
+            ar: ["ينام"]
+        },
+    },
+    {
+        word: "read",
+        ipa_pronunciation: ["riːd"],
+        translations: {
+            vn: ["đọc"],
+            my: ["membaca"], 
+            zh: ["读"],
+            ja: ["読む"],
+            ar: ["يقرأ"]
+        },
+    },
+    {
+        word: "write",
+        ipa_pronunciation: ["raɪt"],
+        translations: {
+            vn: ["viết"],
+            my: ["menulis"], 
+            zh: ["写"],
+            ja: ["書く"],
+            ar: ["يكتب"]
+        },
+    },
+    {
+        word: "work",
+        ipa_pronunciation: ["wɜːrk"],
+        translations: {
+            vn: ["làm việc"],
+            my: ["kerja"], 
+            zh: ["工作"],
+            ja: ["働く"],
+            ar: ["يعمل"]
+        },
+    },
+    {
+        word: "play",
+        ipa_pronunciation: ["pleɪ"],
+        translations: {
+            vn: ["chơi"],
+            my: ["bermain"], 
+            zh: ["玩"],
+            ja: ["遊ぶ"],
+            ar: ["يلعب"]
+        },
+    },
+    {
+        word: "study",
+        ipa_pronunciation: ["ˈstʌdi"],
+        translations: {
+            vn: ["học"],
+            my: ["belajar"], 
+            zh: ["学习"],
+            ja: ["勉強する"],
+            ar: ["يدرس"]
+        },
+    },
+    {
+        word: "learn",
+        ipa_pronunciation: ["lɜːrn"],
+        translations: {
+            vn: ["học"],
+            my: ["mempelajari"], 
+            zh: ["学习"],
+            ja: ["学ぶ"],
+            ar: ["يتعلم"]
+        },
+    },
+    {
+        word: "listen",
+        ipa_pronunciation: ["ˈlɪsən"],
+        translations: {
+            vn: ["nghe"],
+            my: ["mendengar"], 
+            zh: ["听"],
+            ja: ["聞く"],
+            ar: ["يستمع"]
+        },
+    },
+    {
+        word: "speak",
+        ipa_pronunciation: ["spiːk"],
+        translations: {
+            vn: ["nói"],
+            my: ["berbicara"], 
+            zh: ["说"],
+            ja: ["話す"],
+            ar: ["يتكلم"]
+        },
+    },
+    {
+        word: "sing",
+        ipa_pronunciation: ["sɪŋ"],
+        translations: {
+            vn: ["hát"],
+            my: ["bernyanyi"], 
+            zh: ["唱"],
+            ja: ["歌う"],
+            ar: ["يغني"]
+        },
+    },
+    {
+        word: "dance",
+        ipa_pronunciation: ["dæns"],
+        translations: {
+            vn: ["nhảy múa"],
+            my: ["menari"], 
+            zh: ["跳舞"],
+            ja: ["踊る"],
+            ar: ["يرقص"]
+        },
+    },
+    {
+        word: "watch",
+        ipa_pronunciation: ["wɑːtʃ"],
+        translations: {
+            vn: ["xem"],
+            my: ["menonton"], 
+            zh: ["看"],
+            ja: ["見る"],
+            ar: ["يشاهد"]
+        },
+    },
+    {
+        word: "open",
+        ipa_pronunciation: ["ˈoʊpən"],
+        translations: {
+            vn: ["mở"],
+            my: ["membuka"], 
+            zh: ["打开"],
+            ja: ["開ける"],
+            ar: ["يفتح"]
+        },
+    },
+    {
+        word: "close",
+        ipa_pronunciation: ["kloʊz"],
+        translations: {
+            vn: ["đóng"],
+            my: ["menutup"], 
+            zh: ["关"],
+            ja: ["閉める"],
+            ar: ["يغلق"]
+        },
+    },
+    {
+        word: "hot",
+        ipa_pronunciation: ["hɑːt"],
+        translations: {
+            vn: ["nóng"],
+            my: ["panas"], 
+            zh: ["热"],
+            ja: ["暑い"],
+            ar: ["حار"]
+        },
+    },
+    {
+        word: "cold",
+        ipa_pronunciation: ["koʊld"],
+        translations: {
+            vn: ["lạnh"],
+            my: ["sejuk"], 
+            zh: ["冷"],
+            ja: ["寒い"],
+            ar: ["بارد"]
+        },
+    },
+    {
+        word: "big",
+        ipa_pronunciation: ["bɪɡ"],
+        translations: {
+            vn: ["lớn"],
+            my: ["besar"], 
+            zh: ["大"],
+            ja: ["大きい"],
+            ar: ["كبير"]
+        },
+    },
+    {
+        word: "small",
+        ipa_pronunciation: ["smɔːl"],
+        translations: {
+            vn: ["nhỏ"],
+            my: ["kecil"], 
+            zh: ["小"],
+            ja: ["小さい"],
+            ar: ["صغير"]
+        },
+    },
+    {
+        word: "new",
+        ipa_pronunciation: ["nuː"],
+        translations: {
+            vn: ["mới"],
+            my: ["baru"], 
+            zh: ["新"],
+            ja: ["新しい"],
+            ar: ["جديد"]
+        },
+    },
+    {
+        word: "old",
+        ipa_pronunciation: ["oʊld"],
+        translations: {
+            vn: ["cũ"],
+            my: ["lama"], 
+            zh: ["旧"],
+            ja: ["古い"],
+            ar: ["قديم"]
+        },
+    },
+    {
+        word: "good",
+        ipa_pronunciation: ["ɡʊd"],
+        translations: {
+            vn: ["tốt"],
+            my: ["baik"], 
+            zh: ["好"],
+            ja: ["良い"],
+            ar: ["جيد"]
+        },
+    },
+    {
+        word: "bad",
+        ipa_pronunciation: ["bæd"],
+        translations: {
+            vn: ["xấu"],
+            my: ["buruk"], 
+            zh: ["坏"],
+            ja: ["悪い"],
+            ar: ["سيء"]
+        },
+    },
+    {
+        word: "happy",
+        ipa_pronunciation: ["ˈhæpi"],
+        translations: {
+            vn: ["hạnh phúc"],
+            my: ["gembira"], 
+            zh: ["快乐"],
+            ja: ["幸せな"],
+            ar: ["سعيد"]
+        },
+    },
+    {
+        word: "sad",
+        ipa_pronunciation: ["sæd"],
+        translations: {
+            vn: ["buồn"],
+            my: ["sedih"], 
+            zh: ["悲伤"],
+            ja: ["悲しい"],
+            ar: ["حزين"]
+        },
+    },
+    {
+        word: "hungry",
+        ipa_pronunciation: ["ˈhʌŋɡri"],
+        translations: {
+            vn: ["đói"],
+            my: ["lapar"], 
+            zh: ["饿"],
+            ja: ["空腹の"],
+            ar: ["جائع"]
+        },
+    },
+    {
+        word: "thirsty",
+        ipa_pronunciation: ["ˈθɜːrsti"],
+        translations: {
+            vn: ["khát"],
+            my: ["haus"], 
+            zh: ["渴"],
+            ja: ["喉が渇いた"],
+            ar: ["عطشان"]
+        },
+    },
+    {
+        word: "tired",
+        ipa_pronunciation: ["ˈtaɪərd"],
+        translations: {
+            vn: ["mệt"],
+            my: ["letih"], 
+            zh: ["累"],
+            ja: ["疲れた"],
+            ar: ["متعب"]
+        },
+    }
 ];
